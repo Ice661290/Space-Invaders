@@ -1,4 +1,4 @@
-# Space Invaders 🚀 
+# 2D Game - Space Invaders 🚀 
 
 **รายวิชา:** CS1343 การโปรแกรมเชิงวัตถุ (Object Oriented Programming)
 
