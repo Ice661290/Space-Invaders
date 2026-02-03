@@ -31,7 +31,7 @@
 
 <br>
 
-### 💀 เวอร์ชันที่พัฒนาใหม่ (Modified Version)
+### 👾 เวอร์ชันที่พัฒนาใหม่ (Modified Version)
 สิ่งที่พวกผมได้ทำการปรับปรุงโค้ดและเพิ่มฟีเจอร์เข้าไปใหม่:
 1.  **ศัตรูใหม่ Skull:** เปลี่ยนกราฟิกและพฤติกรรมศัตรูใหม่เป็น "Skull"
 2.  **เพิ่ม Logic:** ให้ Skull มุ่งหน้าเคลื่อนที่ลงมาอย่างเดียวจนกว่าจะถึงเส้นเขียว เพื่อกดดันให้ผู้เล่นต้องรีบกำจัดให้เร็วที่สุด
@@ -50,7 +50,8 @@
 
   **Language:** Java (JDK)
   
-  <a href="https://www.oracle.com/asean/java/technologies/downloads/#jdk25-windows"><img width="275" height="275" alt="images-removebg-preview" src="https://github.com/user-attachments/assets/cfede014-2e88-4723-9696-35382a94115e" />
+  <a href="https://www.oracle.com/asean/java/technologies/downloads/#jdk25-windows"><img width="275" height="275" alt="images-removebg-preview" src="https://github.com/user-attachments/assets/286493f3-7a2e-4ad9-bfbb-669cd1bb5d5f" />
+
 
 * **IDE/Editor:** Visual Studio Code
 
