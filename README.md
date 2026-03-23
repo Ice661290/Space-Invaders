@@ -1,14 +1,12 @@
 # 2D Game - Space Invaders 🚀 
 
-**รายวิชา:** CS1343 การโปรแกรมเชิงวัตถุ (Object Oriented Programming)
-
-โปรเจกต์นี้เป็นเกม Space Invaders ที่พัฒนาด้วยภาษา Java โดยมีวัตถุประสงค์เพื่อศึกษาหลักการเขียนโปรแกรมเชิงวัตถุ (OOP) ผ่านการแกะโค้ดและพัฒนาต่อยอดจาก Open Source Project
+This project is a Space Invaders game developed in Java. The primary objective is to study Object-Oriented Programming (OOP) principles by analyzing, reverse-engineering, and building upon an Open Source project.
 
 ---
 
 ## 🙏 Credits
-โปรเจกต์นี้ได้รับการพัฒนาและดัดแปลงมาจาก Source Code ต้นฉบับของ **Jan Bodnar**
-ต้องขอขอบคุณเจ้าของผลงานสำหรับการแบ่งปัน Source Code เพื่อเป็นวิทยาทานในการศึกษา
+This project was developed and modified from the original source code by **Jan Bodnar**
+We would like to express our gratitude to the author for sharing the source code as a valuable educational resource.
 
 🔗 **Original Source Code:** [Java-Space-Invaders by janbodnar](https://github.com/janbodnar/Java-Space-Invaders)
 
@@ -16,37 +14,37 @@
 
 ## 🎮 Gameplay
 
-### 🕹️ ต้นฉบับ (Original Version)
-ในเวอร์ชันดั้งเดิม รูปแบบการเล่นจะเป็น Classic Space Invaders:
-* **ศัตรู:** Alien  เคลื่อนที่ซ้าย-ขวา และค่อยๆลงมาจนกว่าจะถึงเส้นเขียว เกมถึงจะจบ
-* **ผู้เล่น:**
-  * การเคลื่อนที่จะไปทางซ้าย-ขวา = ปุ่มลูกศรซ้าย-ขวา
-  * การยิงจะยิงด้ทีละนัด = ปุ่มSpacebar
-* **เป้าหมาย:** กำจัด Alien ให้หมดก่อนที่จะลงมาถึงพื้น
+### 🕹️ Original Version
+In the original version, the gameplay follows the Classic Space Invaders style:
+* **Enemies:** Aliens move left and right, gradually descending until they reach the green line, which results in a Game Over.
+* **Player Controls:**
+  * Movement = Left and Right Arrow Keys
+  * Shooting = Spacebar (fires one bullet at a time)
+* **Goal:** Eliminate all Aliens before they reach the ground.
 
-*(ภาพตัวอย่าง Gameplay เดิม)*
+*(Original Gameplay Image Placeholder)*
 
 ![Before](https://github.com/user-attachments/assets/6edbbec9-f27b-4425-8e3c-a69c18334938)
 
 
 <br>
 
-### 👾 เวอร์ชันที่พัฒนาใหม่ (Modified Version)
-สิ่งที่พวกผมได้ทำการปรับปรุงโค้ดและเพิ่มฟีเจอร์เข้าไปใหม่:
-1.  **ศัตรูใหม่ Skull:** เปลี่ยนกราฟิกและพฤติกรรมศัตรูใหม่เป็น "Skull"
-2.  **เพิ่ม Logic:** ให้ Skull มุ่งหน้าเคลื่อนที่ลงมาอย่างเดียวจนกว่าจะถึงเส้นเขียว เพื่อกดดันให้ผู้เล่นต้องรีบกำจัดให้เร็วที่สุด
-3.  **เปลี่ยน Ailen เป็น Skull V :** เป็นศัตรูชนิดพิเศษที่เคลื่อนที่ช้าแต่ยิงกระสุนรัวและเลือดเยอะ
-4.  **ผู้เล่นได้upgrade:** ปรับความเร็วการเคลื่อนที่ของผู้เล่น เพื่อความคล่องตัวในการหลบหลีก
-5.  **ปรับเปลี่ยนAssets:** ผู้เล่น, ระเบิด, ศัตรู ให้เข้ากับธีมใหม่
+### 👾 Modified Version
+I improved the code and implemented the following new features:
+1.  **New Enemy "Skull":** Completely changed the enemy graphics and behavior."
+2.  **New Movement Logic:** "Skulls" now move strictly downward toward the green line, pressuring the player to eliminate them as quickly as possible.
+3.  **"Skull V" Elite Enemy :** Replaced standard Aliens with "Skull V," a special enemy type that moves slowly but fires rapidly and has a high health pool (HP).
+4.  **Player Upgrades:** Increased the player's movement speed for better agility and dodging capabilities.
+5.  **Asset Overhaul:** Redesigned the player, bombs, and enemy sprites to seamlessly match the new game theme.
 
-*(ภาพตัวอย่าง Gameplay ใหม่)*
+*(New Gameplay Image Placeholder)*
 
 ![After](https://github.com/user-attachments/assets/b9475f51-ceb6-48b1-9de3-51e7c3ae88e1)
 
 
 ---
 
-## 🛠️ เครื่องมือที่ใช้พัฒนา (Tools)
+## 🛠️ Tools
 
   **Language:** Java (JDK)
   
@@ -63,17 +61,10 @@
         <img width="200" height="200" alt="Screenshot 2026-01-22 193326" src="https://github.com/user-attachments/assets/fb572ed1-ca34-499a-b464-615f48541c11" />
 
 * **Other**
-  * เว็บวาดรูปpixel
+  * Web-based pixel art drawing tool.
 
     <a href="https://www.pixilart.com/draw"><img width="223" height="40" alt="Screenshot 2026-01-22 195357" src="https://github.com/user-attachments/assets/5f6249d1-1603-4e51-bff3-7696144b41e4" />      
 
 ---
-
-## 👥 สมาชิก 
-
-<p>651290 นายธนพัฒน์ เอี่ยมสำอางค์ </p>
-<p>660778 นายวีรภัทร อุ่นแก้ว </p>
-<p>661290 นายธนัชชา นาคง </p>
-
 
 
